@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(140, 175, 252, 0.7),rgba(43, 44, 45, 0.7)),url(images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    
+
+}
+.nav-links{
+    flex:l;
+    text-align:right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:rgb(17, 10, 8);
+    text-decoration:none;
+    font-size:15px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#f44336;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%; 
+}
+.row{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.us-col{
+    flex-basis:100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-top:5%;
+    margin-left:1%;
+    margin-right:5%;
+}
+.us-col p{
+    margin-top:5%;
+}
+.us-col h2{
+    color: rgb(89, 255, 0);
+}
+.us-col h1{
+    text-align: right;
+    margin-top:3%;
+    color: rgb(89, 255, 0);
+}
+
+.us-col img{
+    margin-top:2%;
+}
+.us-col img{
+    width: 100%;
+    
+    flex-basis: 60%;
+}
+.image-col img{
+    width: 100%;
+    
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    color:rgb(89, 255, 0);
+}
+
+.icons .fa{
+    color:#f44336;
+    margin: 0 30px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.email{
+ margin-bottom: 10px;
+ color:rgb(89, 255, 0);
+}
+
+
+
+/* get started */
+
+.login{
+    margin-left:30%;
+}
+.login p{
+    margin-top:10px;
+    color: rgb(62, 253, 103);
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    border:1px solid #f44336;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position:relative;
+    cursor:pointer;
+    margin-top: 20px;
+
+
+}
+.button:hover{
+    border: 1px solid #a7fd8b;
+    background: #98f993;
+    transition: 0s;
+    text-decoration: #3f2d6b;
+}
+
+/*sign up*/
+.sign-up{
+    margin-left:30%;
+    margin-top: 20px;
+}
+.sign-up p{
+    margin-top: 10px;
+    color:rgb(126, 250, 104);
+}
+
+/*services*/
+
+.services {
+    width: 80%;
+    margin-left:5px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.services h4{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.event-col{
+    flex-basis: 40%;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    text-align: center;
+   
+    
+    
+}
+.event-col img{
+    width: 90%;
+    border-radius: 15px;
+    border-right: 350px solid green;
+    border-bottom: 0px solid green;
+    
+}
+ /*about*/
+
+.about{
+    width: auto;
+    padding-top: 30px;
+}
+.about h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 200px;
+}
+.about p{
+    text-align: center;
+}
+.about-col{
+    margin-left: 3%;
+    margin-top: 3%;
+    flex-basis: 50%;
+    
+}
+.about-col p{
+    margin-top: 5%;
+    font-size: 12px;
+
+}
+.about-col h4{
+    margin-top: 10%;
+}
+.about-col img{
+    width: 60%;
+}
+
+
+
+.image-1{
+    width:50%;
+    flex-basis: 50%;
+
+}
